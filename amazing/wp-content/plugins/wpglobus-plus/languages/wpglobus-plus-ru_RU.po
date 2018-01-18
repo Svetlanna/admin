@@ -1,0 +1,381 @@
+# Copyright (C) 2015 WPGlobus
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPGlobus Plus\n"
+"Report-Msgid-Bugs-To: http://www.wpglobus.com/pg/contact-us/\n"
+"POT-Creation-Date: 2016-09-11 18:39:42+00:00\n"
+"PO-Revision-Date: 2016-03-02 15:30-0500\n"
+"Last-Translator: Gregory Karpinsky <gregory@tiv.net>\n"
+"Language-Team: The WPGlobus Team <support@wpglobus.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wpglobus-plus-menu-settings.php:323
+#: includes/wpglobus-plus-main.php:191
+msgid "WPGlobus Menu Settings"
+msgstr "WPGlobus: Настройки меню"
+
+#: includes/class-wpglobus-plus-menu-settings.php:361
+msgid ""
+"Your theme does not natively support menus or does not register any Theme "
+"Location."
+msgstr ""
+"Ваша тема не поддерживает произвольные меню или не определяет области для их "
+"показа."
+
+#: includes/class-wpglobus-plus-menu-settings.php:392
+msgid ""
+"With WPGlobus Plus, you can associate different menus with each language. "
+"Choose which menu should be displayed at this Theme Location - by clicking "
+"on the table cells."
+msgstr ""
+"WPGlobus Plus позволяет выполнить привязку меню к языкам. Выберите, какое "
+"меню должно быть показано в этой Области Темы, нажимая на соответствующие "
+"ячейки таблицы."
+
+#: includes/class-wpglobus-plus-menu-settings.php:426
+msgid "Click to select"
+msgstr "Нажмите, чтобы выбрать"
+
+#: includes/class-wpglobus-plus-menu-settings.php:508
+msgid "You need to assign a menu for this Theme Location."
+msgstr "Вам необходимо выбрать меню для этой Области Темы."
+
+#: includes/class-wpglobus-plus-menu.php:69 includes/wpglobus-plus-main.php:158
+msgid "Language Selector Menu Style"
+msgstr "Стиль меню выбора языка"
+
+#: includes/class-wpglobus-plus-menu.php:72 includes/wpglobus-plus-main.php:162
+msgid "Drop-down languages menu or Flat (in one line)"
+msgstr "Показать список языков в виде выпадающего меню или в одну строку"
+
+#: includes/class-wpglobus-plus-menu.php:74 includes/wpglobus-plus-main.php:164
+msgid "Do not change"
+msgstr "Ничего не менять"
+
+#: includes/class-wpglobus-plus-menu.php:82 includes/wpglobus-plus-main.php:165
+msgid "Drop-down (vertical)"
+msgstr "Выпадающее меню"
+
+#: includes/class-wpglobus-plus-menu.php:83 includes/wpglobus-plus-main.php:166
+msgid "Flat (horizontal)"
+msgstr "В одну строку"
+
+#: includes/class-wpglobus-plus-publish-extend.php:38
+msgid "Set draft status"
+msgstr "Перевод в статус \"Черновик\""
+
+#: includes/class-wpglobus-plus-publish-extend.php:42
+msgid ""
+"WARNING: this operation is non-reversible. It is strongly recommended that "
+"you backup your database before proceeding."
+msgstr ""
+"Предупреждение: эта операция является необратимой. Настоятельно рекомендуем "
+"сделать резервную копию базы данных перед продолжением."
+
+#: includes/class-wpglobus-plus-publish-extend.php:46
+msgid ""
+"By default, when you publish a post, all languages get the \"published\" "
+"status. By using this tool, you can set specific language(s) to draft, for "
+"any post, page or custom post type."
+msgstr ""
+"Когда Вы публикуете новый контент, все переводы по умолчанию получают статус "
+"«опубликовано». Используя эту программу, можно перевести определенные языки "
+"в статус «черновик» - для всех записей, страниц или пользовательских типов "
+"записей (CPT)."
+
+#: includes/class-wpglobus-plus-publish-extend.php:50
+msgid "1. Select a language and the post type:"
+msgstr "1. Выберите язык и тип записи:"
+
+#. translators: drop-down menu prompt
+#: includes/class-wpglobus-plus-publish-extend.php:59
+msgid "select a language"
+msgstr "Выберите язык"
+
+#. translators: drop-down menu prompt
+#: includes/class-wpglobus-plus-publish-extend.php:77
+msgid "select a post type"
+msgstr "Выберите тип записи"
+
+#: includes/class-wpglobus-plus-publish-extend.php:87
+msgid "2. Click the link below:"
+msgstr "2. Нажмите на ссылку:"
+
+#: includes/class-wpglobus-plus-publish.php:416
+#: includes/class-wpglobus-plus-publish2.php:416
+msgid "This post has been marked as Draft."
+msgstr "Эта запись была отмечен как Черновик."
+
+#: includes/class-wpglobus-plus-publish.php:418
+#: includes/class-wpglobus-plus-publish2.php:418
+msgid "This post is available in the main language (%s) only."
+msgstr "Эта запись доступна только на основном языке (%s)."
+
+#: includes/class-wpglobus-plus-publish.php:425
+#: includes/class-wpglobus-plus-publish2.php:425
+msgid "Please, visit later..."
+msgstr "Пожалуйста, попробуйте позже!"
+
+#: includes/class-wpglobus-plus-publish.php:493
+#: includes/class-wpglobus-plus-publish2.php:493
+#: includes/class-wpglobus-plus-wpglobeditor.php:97
+msgid "Status"
+msgstr "Статус"
+
+#: includes/class-wpglobus-plus-publish.php:609
+#: includes/class-wpglobus-plus-publish2.php:678
+msgid "Set Draft"
+msgstr "Перевод в статус \"Черновик\""
+
+#: includes/class-wpglobus-plus-publish.php:617
+#: includes/class-wpglobus-plus-publish2.php:686
+msgid "URL format"
+msgstr "Формат URL-адреса"
+
+#: includes/class-wpglobus-plus-publish.php:626
+#: includes/class-wpglobus-plus-publish2.php:695
+msgid "Unknown language"
+msgstr "Неизвестный язык"
+
+#: includes/class-wpglobus-plus-publish.php:635
+#: includes/class-wpglobus-plus-publish2.php:704
+msgid "Disabled post type"
+msgstr "Этот тип записи в данный момент отключен в настройках."
+
+#: includes/class-wpglobus-plus-publish.php:645
+#: includes/class-wpglobus-plus-publish2.php:714
+msgid ""
+"Setting as \"draft\" all records with post type \"%1$s\" for language \"%2$s"
+"\""
+msgstr ""
+"Установка статуса «черновик» для записей с типом «%1$s» на для языке «%2$s»"
+
+#: includes/class-wpglobus-plus-publish.php:678
+msgid "Successfully set to Draft"
+msgstr "Установлено в статус \"Черновик\""
+
+#: includes/class-wpglobus-plus-publish.php:680
+msgid "Setting to Draft FAILED!"
+msgstr "Установка в статус \"Черновик\" НЕ ВЫПОЛНЕНА!"
+
+#: includes/class-wpglobus-plus-publish.php:685
+#: includes/class-wpglobus-plus-publish2.php:578
+msgid "Already set to \"%s\". Not changing."
+msgstr "Запись находится в статусе «%s». Не меняю."
+
+#: includes/class-wpglobus-plus-publish.php:694
+#: includes/class-wpglobus-plus-publish2.php:756
+msgid "No records found."
+msgstr "Записи этого типа не найдены."
+
+#: includes/class-wpglobus-plus-publish.php:697
+#: includes/class-wpglobus-plus-publish2.php:759
+msgid "Done."
+msgstr "Готово."
+
+#: includes/class-wpglobus-plus-publish.php:704
+#: includes/class-wpglobus-plus-publish2.php:766
+msgid "Back to WPGlobus Plus"
+msgstr "Вернуться к WPGlobus Плюс"
+
+#: includes/class-wpglobus-plus-publish2.php:572
+msgid "Successfully set to \"%s\""
+msgstr ""
+
+#: includes/class-wpglobus-plus-publish2.php:574
+msgid "Setting to \"%s\" FAILED!"
+msgstr ""
+
+#: includes/class-wpglobus-plus-wpglobeditor.php:101
+msgid "Page"
+msgstr "Страница"
+
+#. translators:
+#: includes/class-wpglobus-plus-wpglobeditor.php:108
+msgid "%1$s or %2$s of the HTML element"
+msgstr "%1$s или %2$s HTML элемента страницы"
+
+#: includes/class-wpglobus-plus-wpglobeditor.php:114
+msgid "Action"
+msgstr "Действие"
+
+#: includes/class-wpglobus-plus-wpglobeditor.php:211
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/class-wpglobus-plus-wpglobeditor.php:286
+msgid "Add"
+msgstr "Добавить"
+
+#: includes/wpglobus-plus-main.php:185 wpglobus-plus.php:110
+msgid "Go to WPGlobus Menu Settings page"
+msgstr "Перейти к настройкам меню WPGlobus"
+
+#: includes/wpglobus-plus-main.php:208
+msgid "Go to WPGlobus Plus Options page"
+msgstr "Перейдите к странице настроек WPGlobus Плюс"
+
+#: includes/wpglobus-plus-main.php:214
+msgid "WPGlobus Plus Options"
+msgstr "Настройки WPGlobus Плюс"
+
+#. Plugin Name of the plugin/theme
+msgid "WPGlobus Plus"
+msgstr "WPGlobus Плюс"
+
+#: includes/wpglobus-plus-main.php:424
+msgid "Modules"
+msgstr "Модули"
+
+#: includes/wpglobus-plus-main.php:434
+msgid "Module Publish"
+msgstr "Модуль \"Издатель\""
+
+#: includes/wpglobus-plus-main.php:440
+msgid "Editor Settings"
+msgstr "Настройки редактора"
+
+#: includes/wpglobus-plus-main.php:485
+msgid "Active Modules"
+msgstr "Активные модули"
+
+#: includes/wpglobus-plus-main.php:487
+msgid "Uncheck the modules you are not planning to use:"
+msgstr "Отметьте только те модули, которые Вы планируете использовать:"
+
+#: includes/wpglobus-plus-main.php:549
+msgid "Please, activate module Publish"
+msgstr "Пожалуйста, активируйте модуль \"Издатель\""
+
+#: includes/wpglobus-plus-main.php:568
+msgid "Please, activate module WPGlobus Editor"
+msgstr "Пожалуйста, активируйте модуль WPGlobus Редактор"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpglobus.com/product/wpglobus-plus/"
+msgstr "http://www.wpglobus.com/ru/product/wpglobus-plus/"
+
+#. Description of the plugin/theme
+msgid ""
+"Extend functionality of the <a href=\"https://wordpress.org/plugins/wpglobus/"
+"\">WPGlobus Multilingual Plugin</a>."
+msgstr ""
+"Расширение функциональности <a href=\"https://wordpress.org/plugins/wpglobus/"
+"\">плагина WPGlobus</a>."
+
+#. Author of the plugin/theme
+msgid "WPGlobus"
+msgstr "WPGlobus"
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpglobus.com/"
+msgstr "http://www.wpglobus.com/ru/"
+
+#: includes/wpglobus-plus-main.php:463
+msgctxt "Part of the WPGlobus Plus"
+msgid "Plus"
+msgstr "Плюс"
+
+#. Translators: %1$s - plugin name (eg ACF); %2$s - plugin version (eg 1.2.3).
+#: wpglobus-plus.php:65
+msgctxt "List of modules"
+msgid ""
+"To use this module, you need to install and activate the %1$s plugin version "
+"%2$s or later."
+msgstr ""
+"Чтобы использовать этот модуль, Вам необходимо установить и активировать "
+"плагин %1$s %2$s или более поздней версии."
+
+#: wpglobus-plus.php:70
+msgctxt "List of modules"
+msgid "ACF Plus"
+msgstr "ACF плюс"
+
+#: wpglobus-plus.php:75
+msgctxt "List of modules"
+msgid "Multilingual WYSIWYG Advanced Custom Fields"
+msgstr "Поддержка многоязычных WYSIWYG-полей плагина Advanced Custom Fields"
+
+#: wpglobus-plus.php:85
+msgctxt "List of modules"
+msgid "Publish"
+msgstr "Издатель"
+
+#: wpglobus-plus.php:86
+msgctxt "List of modules"
+msgid "Publish only the completed translations"
+msgstr "Публиковать только завершенные переводы"
+
+#: wpglobus-plus.php:90
+msgctxt "List of modules"
+msgid "Slug"
+msgstr "УРЛ"
+
+#: wpglobus-plus.php:91
+msgctxt "List of modules"
+msgid "Translate post/page URLs"
+msgstr "Переводы УРЛов для записей и страниц"
+
+#: wpglobus-plus.php:95
+msgctxt "List of modules"
+msgid "Switcher Menu"
+msgstr "Переключатель в меню"
+
+#: wpglobus-plus.php:96
+msgctxt "List of modules"
+msgid "Customize the Language Switcher Menu layout"
+msgstr "Стиль переключателя языков в меню"
+
+#: wpglobus-plus.php:107
+msgctxt "List of modules"
+msgid "Menu Settings"
+msgstr "Настройки меню"
+
+#: wpglobus-plus.php:108
+msgctxt "List of modules"
+msgid "Associate different menus with different languages"
+msgstr "Привязка меню к языкам"
+
+#: wpglobus-plus.php:114
+msgctxt "List of modules"
+msgid "Editor"
+msgstr "Редактор"
+
+#: wpglobus-plus.php:115
+msgctxt "List of modules"
+msgid "Universal Multilingual Editor"
+msgstr "Универсальный мультиязычный редактор"
+
+#: wpglobus-plus.php:119
+msgctxt "List of modules"
+msgid "TablePress"
+msgstr "TablePress"
+
+#: wpglobus-plus.php:122
+msgctxt "List of modules"
+msgid "Multilingual TablePress"
+msgstr "Многоязычный TablePress"
+
+#: wpglobus-plus.php:133
+msgctxt "List of modules"
+msgid "Yoast SEO Plus"
+msgstr "Yoast SEO плюс"
+
+#: wpglobus-plus.php:141
+msgctxt "List of modules"
+msgid "Multilingual Focus Keywords and Page Analysis"
+msgstr "Многоязычные ключевые слова и SEO-анализ страницы"
